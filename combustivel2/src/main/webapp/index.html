@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <style type="text/css">
+        body {
+            background-color: #444444;
+            background: url(http://blog.bluesofterp.com.br/wp-content/uploads/2015/05/postoCombustivel.jpg);
+        }
+            
+        form {
+            width: 210px;
+            margin: auto;
+        }
+        
+        input, textarea {
+            font-family: arial;
+            font-weight: normal;
+            font-size: 12pt;
+            border-radius: 20px;
+            background-color: rgba(255,255,255,0.8);
+        }
+        input:hover, textarea:hover {
+            background-color: #dddddd;
+        }
+        
+        label{
+            font-family: Arial;
+        }
+        
+        legend {
+            color: #888888;
+            font-weight: bold;
+            font-size: 13pt;
+            font-family: sans-serif;
+        }
+
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: auto;
+        }
+        .form-signin input[type="text"] {
+            margin-bottom: 5px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .form-signin input[type="text"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+        .form-signin .form-control {
+            position: relative;
+            font-size: 16px;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            height: auto;
+            padding: 10px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .vertical-offset-100 {
+            padding-top: 100px;
+        }
+        
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: auto;
+        }
+        
+        .panel {
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.75);
+            border: 2px solid transparent;
+            border-radius: 40px;
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+        }
+        
+    </style>
+    
+    <body>
+         <div class="container">
+                <div class="row vertical-offset-100">
+                    <div class="col-md-5 col-md-offset-5">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">                                
+                                <div class="row-fluid user-row">
+                                    <img src="http://s11.postimg.org/7kzgji28v/logo_sm_2_mr_1.png" class="img-responsive" alt="Conxole Admin"/>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+        <form action="combustivel" method="POST">
+            
+                <legend>Cálculo do Combustível</legend><br/>
+                <label>Álcool</label> <input type="text" size="20" id="alcool" placeholder="Digite o preço do álcool" class="form-control"><br><br>
+                <label>Gasolina</label> <input type="text" size="20" id="gasolina" placeholder="Digite o preço da gasolina" class="form-control"><br><br>
+                <input type="submit" value="Calcular »"><br><br>
+          
+        </form>
+        </div>
+        </div>
+       </div>
+       </div>
+       </div>
+    </body>
+</html>
